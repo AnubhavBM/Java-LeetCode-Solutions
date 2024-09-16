@@ -10,6 +10,8 @@ let columnTagsSection = document.querySelector(".column-tag-section");
 let lastCell;
 let dataObj = {};
 
+//Comment for git to ignore
+
 formulaInput.addEventListener("keydown", function (e) {
   if (e.key == "Enter") {
     console.log("now evaluating formula");
